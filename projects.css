@@ -1,17 +1,13 @@
 body{
-    background-image: url(projects1.jpeg);
+    background-color: antiquewhite;
 }
 header{
     background-color: whitesmoke;
     margin: 40px 30px 60px;
 }
-.image{
-height: 60%;
-width: 50%;
-float: left;
-border-radius: 50%;
 
-}
+
+
 .column{
     float: left;
     width: 33.3%;
@@ -19,4 +15,10 @@ border-radius: 50%;
 .row::after{
     content: " ";
     display: table;
+}
+.image{
+    height: 60%;
+    width: 50%;
+    float: left;
+    border-radius: 50%;
 }
